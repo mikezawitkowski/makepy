@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+%FNAME%
+
+Created on %DATE%
+by Mike Zawitkowski
+mikez@example.com
+for Acme, Inc.
+
+"""
+from __future__ import division, print_function
+import logging as log
+
+
+class NewClass(object):
+    """
+    INSERT INFO ON %FNAME%
+    """
+
+    def __init__(self):
+        # TODO:
+        pass
+
+
+def main():
+    # TODO:
+    # instantiate the class
+    # run its processes
+    pass
+
+if __name__ == "__main__":
+    log.basicConfig(level=log.DEBUG,
+                    format='%(asctime)s %(message)s',
+                    datefmt="%b %d %H:%M:%S %Z")
+
+    main()
